@@ -36,3 +36,5 @@ Test sonuçlarına göre:
 - Bu nedenle, Streamlit arayüzünde tahmin yapmak için **SVM modeli** tercih edildi.  
 
 Özetle, SVM modeli hem doğruluk hem de kararlılık açısından diğer modellere göre en uygun seçenektir.  
+
+![performans](Model Performansları.png.jpg)
