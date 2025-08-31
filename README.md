@@ -1,4 +1,4 @@
-# AI vs Human Essay Detector
+# AI vs Human 
 
 Bu proje, bir metnin **AI tarafından mı yoksa insan tarafından mı yazıldığını tahmin eden** bir makine öğrenmesi uygulamasıdır. Python, Scikit-learn ve Streamlit kullanılarak geliştirilmiştir.  
 
