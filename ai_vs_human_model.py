@@ -37,7 +37,6 @@ def clean_text(text):
 df["clean_text"]=df["text"].apply(clean_text)
 print(df.head())
 
-#TF-IDF ile metinleri sayısal vektörlere dönüştürme
 X=df["clean_text"]
 y=df["label"]
 
@@ -46,7 +45,7 @@ vectorizer=TfidfVectorizer(max_features=500)
 X_train_tfidf=vectorizer.fit_transform(X_train)
 X_test_tfidf=vectorizer.transform(X_test)
 
-#Modeli Eğitme işlemi
+
 models={
     "Logistic Regression": LogisticRegression(max_iter=1000),
     "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42),
