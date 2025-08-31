@@ -37,4 +37,4 @@ Test sonuçlarına göre:
 
 Özetle, SVM modeli hem doğruluk hem de kararlılık açısından diğer modellere göre en uygun seçenektir.  
 
-![performans](Model Performansları.png.jpg)
+![performans](Model Performansları.png)
